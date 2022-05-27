@@ -78,3 +78,22 @@ header {
     display: flex;
     justify-content: flex-end;
 }
+
+.lastbox {
+    display: flex;
+    margin: 48px 300px;
+    align-items: center;
+}
+
+.signupcontainer {
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+    padding: 24px 48px;
+
+}
+
+.signuptext {
+    display: flex;
+    flex-direction: column;
+}
