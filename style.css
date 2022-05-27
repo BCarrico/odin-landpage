@@ -77,24 +77,29 @@ header {
     display: flex;
     justify-content: center;
     flex-direction: column;
+    padding: 48px;
 }
 
 .imageheader {
     display: flex;
     justify-content: center;
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+    padding-bottom: 36px;
 }
 
 .images {
     display: flex;
     justify-content: center;
-    gap: 24px;
+    gap: 48px;
     text-align: center;
 }
 
 .image {
     display: flex;
     flex-direction: column;
-    max-width: 125px;  
+    max-width: 150px;  
 }
 
 .quotecontainer {
