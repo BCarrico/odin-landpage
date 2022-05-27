@@ -58,7 +58,7 @@ header {
 .headerbody {
     display: flex;
     margin: 42px 0px;
-    justify-content: space-around;
+    justify-content: space-around; 
 }
 
 .headerbutton {
@@ -105,9 +105,10 @@ header {
 .quotecontainer {
     display: flex;
     flex-direction: column;
-    padding: 48px 400px;
+    padding: 72px 475px;
     justify-content: center;
     align-items: center;
+    background: #E5E7EB;
 }
 
 .quotetext {
@@ -115,9 +116,16 @@ header {
     flex-direction: column; 
 }
 
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
 .quoteauthor {
     display: flex;
     justify-content: flex-end;
+    font-size: 18px;
 }
 
 .lastbox {
