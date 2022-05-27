@@ -60,3 +60,21 @@ header {
     flex-direction: column;
     max-width: 125px;  
 }
+
+.quotecontainer {
+    display: flex;
+    flex-direction: column;
+    padding: 48px 400px;
+    justify-content: center;
+    align-items: center;
+}
+
+.quotetext {
+    display: flex;
+    flex-direction: column; 
+}
+
+.quoteauthor {
+    display: flex;
+    justify-content: flex-end;
+}
