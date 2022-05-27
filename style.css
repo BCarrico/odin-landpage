@@ -21,20 +21,56 @@ li {
     display: flex;
     flex-direction: column;
     padding: 8px 72px;
-    /* background: #1F2937; */
+    background: #1F2937; 
     
+}
+
+.heroheadermaintext {
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+}
+
+.headerlogotext {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: 700;
+}
+
+.herosecondarytext {
+    font-size: 18px;
+    color: #E5E7EB;
 }
 
 header {
     display: flex;
-    justify-content: space-between;
-    
+    justify-content: space-between;   
+}
+
+.headertext {
+    display: flex;
+    flex-direction: column;
+    width: 50vh;
+    gap: 8px;
+    justify-content: center;
 }
 
 .headerbody {
     display: flex;
     margin: 42px 0px;
-    justify-content: space-between;
+    justify-content: space-around;
+}
+
+.headerbutton {
+    display: flex;
+    max-width: 90px;
+    background-color: #3882F6;
+    color: white;
+    font-weight: 500;
+    border-radius: 8px;
+    padding: 6px;
+    justify-content: center;
+    align-items: center;
 }
 
 .imagecontent {
