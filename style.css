@@ -102,6 +102,7 @@ header {
     flex-direction: column;
     max-width: 150px;  
     max-height: auto;
+    flex-grow: 0;
 }
 
 .quotecontainer {
