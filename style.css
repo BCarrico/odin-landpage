@@ -22,7 +22,6 @@ li {
     flex-direction: column;
     padding: 8px 72px;
     background: #1F2937; 
-    
 }
 
 .heroheadermaintext {
@@ -71,6 +70,7 @@ header {
     padding: 6px;
     justify-content: center;
     align-items: center;
+    border-style: none;
 }
 
 .imagecontent {
@@ -78,6 +78,7 @@ header {
     justify-content: center;
     flex-direction: column;
     padding: 48px;
+    max-height: 300px;
 }
 
 .imageheader {
@@ -109,6 +110,7 @@ header {
     justify-content: center;
     align-items: center;
     background: #E5E7EB;
+    max-height: 300px;
 }
 
 .quotetext {
@@ -132,13 +134,16 @@ header {
     display: flex;
     margin: 48px 300px;
     align-items: center;
+    height: 250px;
 }
 
 .signupcontainer {
     display: flex;
     justify-content: space-between;
     flex: 1;
-    padding: 24px 48px;
+    padding: 48px 48px;
+    background: #3882F6;
+    border-radius: 8px;
 
 }
 
@@ -147,9 +152,20 @@ header {
     flex-direction: column;
 }
 
+.footerbutton {
+    border-radius: 8px;
+    background: #3882F6;
+    color: #F9FAF8;
+    border-color: #F9FAF8;
+    border-style: solid;
+    font-weight: 600;
+    width: 100px;
+}
+
 footer {
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 16px;
+    background-color: #1F2937;
 }
